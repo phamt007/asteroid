@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "34f90f58-3fea-4e31-a7ca-f0f160838f56",
+            "Value": {
+                "id": "bda4f320-2709-40a4-aed2-9d6700c3512e",
+                "resourcePath": "objects\\object_small_asteroid\\object_small_asteroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "37142e29-97a0-41d0-8825-2c882d22783e",
             "Value": {
                 "id": "fe25a70e-6126-430c-95d1-fcc3535a3137",
@@ -116,6 +124,14 @@
                 "id": "cafcf4dc-1337-4746-860c-ec171d609c19",
                 "resourcePath": "objects\\object_player\\object_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "664a7126-e899-4257-8438-2569f036eb7a",
+            "Value": {
+                "id": "18543daf-cfc1-4bef-83e1-f39fe9526649",
+                "resourcePath": "sprites\\sprite_small_asteroid\\sprite_small_asteroid.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
