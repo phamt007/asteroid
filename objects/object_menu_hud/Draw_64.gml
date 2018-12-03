@@ -1,13 +1,5 @@
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
-/// @DnDHash : 75CB8E16
-/// @DnDArgument : "x" "800"
-/// @DnDArgument : "y" "10"
-/// @DnDArgument : "caption" ""Press Esc to Continue ""
-draw_text(800, 10, string("Press Esc to Continue ") + "");
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
 /// @DnDHash : 405E0AE4
 /// @DnDArgument : "x" "50"
 /// @DnDArgument : "y" "10"
@@ -61,3 +53,43 @@ draw_text(50, 110, string("E = Rotate right ") + "");
 /// @DnDArgument : "y" "130"
 /// @DnDArgument : "caption" ""Space = Fire""
 draw_text(50, 130, string("Space = Fire") + "");
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 67F0502C
+/// @DnDArgument : "x" "250"
+/// @DnDArgument : "y" "200"
+/// @DnDArgument : "xscale" "5"
+/// @DnDArgument : "yscale" "5"
+/// @DnDArgument : "caption" ""Welcome ""
+draw_text_transformed(250, 200, string("Welcome ") + "", 5, 5, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 47AE7708
+/// @DnDArgument : "x" "650"
+/// @DnDArgument : "y" "200"
+/// @DnDArgument : "xscale" "5"
+/// @DnDArgument : "yscale" "5"
+/// @DnDArgument : "caption" ""to""
+draw_text_transformed(650, 200, string("to") + "", 5, 5, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 73D66309
+/// @DnDArgument : "x" "300"
+/// @DnDArgument : "y" "300"
+/// @DnDArgument : "xscale" "5"
+/// @DnDArgument : "yscale" "5"
+/// @DnDArgument : "caption" ""Asteroids ""
+draw_text_transformed(300, 300, string("Asteroids ") + "", 5, 5, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 4163ED01
+/// @DnDArgument : "x" "230"
+/// @DnDArgument : "y" "450"
+/// @DnDArgument : "xscale" "3"
+/// @DnDArgument : "yscale" "3"
+/// @DnDArgument : "caption" ""Press Esc to Begin... ""
+draw_text_transformed(230, 450, string("Press Esc to Begin... ") + "", 3, 3, 0);
