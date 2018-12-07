@@ -71,6 +71,23 @@
                 "m_owner": "07785496-521d-4daf-9e91-fbd138de4536"
             },
             "moment": 400
+        },
+        {
+            "id": "0983b16c-c87a-4cd7-8f17-da3cc8041681",
+            "modelName": "GMMoment",
+            "mvc": "1.0",
+            "name": "",
+            "evnt": {
+                "id": "a2be468c-71ec-413f-a062-5c85352bb8e7",
+                "modelName": "GMEvent",
+                "mvc": "1.0",
+                "IsDnD": true,
+                "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+                "enumb": 500,
+                "eventtype": 0,
+                "m_owner": "07785496-521d-4daf-9e91-fbd138de4536"
+            },
+            "moment": 500
         }
     ]
 }
