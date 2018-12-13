@@ -13,3 +13,9 @@ timeline_running = 1;
 /// @DnDHash : 163AE515
 /// @DnDArgument : "var" "score"
 score = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 344467C3
+/// @DnDArgument : "var" "x"
+global.x = 0;
