@@ -18,10 +18,10 @@ if(__dnd_score < 1000)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1B137C0E
 	/// @DnDParent : 5DE06342
-	/// @DnDArgument : "x" "100"
-	/// @DnDArgument : "y" "100"
+	/// @DnDArgument : "x" "800"
+	/// @DnDArgument : "y" "10"
 	/// @DnDArgument : "caption" ""Level 0 ""
-	draw_text(100, 100, string("Level 0 ") + "");
+	draw_text(800, 10, string("Level 0 ") + "");
 }
 
 /// @DnDAction : YoYo Games.Instance Variables.If_Score
@@ -36,10 +36,10 @@ if(__dnd_score >= 1000)
 	/// @DnDVersion : 1
 	/// @DnDHash : 04B62626
 	/// @DnDParent : 2784729C
-	/// @DnDArgument : "x" "100"
-	/// @DnDArgument : "y" "100"
+	/// @DnDArgument : "x" "800"
+	/// @DnDArgument : "y" "10"
 	/// @DnDArgument : "caption" ""Level 1 ""
-	draw_text(100, 100, string("Level 1 ") + "");
+	draw_text(800, 10, string("Level 1 ") + "");
 }
 
 /// @DnDAction : YoYo Games.Instance Variables.If_Score
@@ -54,10 +54,10 @@ if(__dnd_score >= 2500)
 	/// @DnDVersion : 1
 	/// @DnDHash : 73D44CFA
 	/// @DnDParent : 3C3C6AF3
-	/// @DnDArgument : "x" "100"
-	/// @DnDArgument : "y" "100"
+	/// @DnDArgument : "x" "800"
+	/// @DnDArgument : "y" "10"
 	/// @DnDArgument : "caption" ""Level 2 ""
-	draw_text(100, 100, string("Level 2 ") + "");
+	draw_text(800, 10, string("Level 2 ") + "");
 }
 
 /// @DnDAction : YoYo Games.Instance Variables.If_Score
@@ -72,8 +72,8 @@ if(__dnd_score >= 4500)
 	/// @DnDVersion : 1
 	/// @DnDHash : 77619454
 	/// @DnDParent : 0F6ECF5F
-	/// @DnDArgument : "x" "100"
-	/// @DnDArgument : "y" "100"
+	/// @DnDArgument : "x" "800"
+	/// @DnDArgument : "y" "10"
 	/// @DnDArgument : "caption" ""Level 3 ""
-	draw_text(100, 100, string("Level 3 ") + "");
+	draw_text(800, 10, string("Level 3 ") + "");
 }

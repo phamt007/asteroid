@@ -35,18 +35,17 @@ if(__dnd_score >= 2500)
 /// @DnDAction : YoYo Games.Instance Variables.If_Score
 /// @DnDVersion : 1
 /// @DnDHash : 5FE2BDEC
-/// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "4500"
+/// @DnDArgument : "value" "4500 - 5000"
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-if(__dnd_score >= 4500)
+if(__dnd_score == 4500 - 5000)
 {
 	/// @DnDAction : YoYo Games.Timelines.Speed_Timeline
 	/// @DnDVersion : 1
 	/// @DnDHash : 2EA0FF7C
 	/// @DnDParent : 5FE2BDEC
-	/// @DnDArgument : "speed" "10"
+	/// @DnDArgument : "speed" "5"
 	/// @DnDArgument : "speed_relative" "1"
-	timeline_speed += 10;
+	timeline_speed += 5;
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
@@ -102,9 +101,10 @@ if(__dnd_score >= 4500)
 /// @DnDAction : YoYo Games.Instance Variables.If_Score
 /// @DnDVersion : 1
 /// @DnDHash : 7F6FB949
+/// @DnDArgument : "op" "3"
 /// @DnDArgument : "value" "300"
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-if(__dnd_score == 300)
+if(__dnd_score <= 300)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
