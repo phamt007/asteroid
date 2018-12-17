@@ -17,5 +17,8 @@ score = 0;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 344467C3
+/// @DnDInput : 2
 /// @DnDArgument : "var" "x"
+/// @DnDArgument : "var_1" "weapon"
 global.x = 0;
+global.weapon = 0;
