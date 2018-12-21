@@ -1,3 +1,18 @@
+/// @DnDAction : YoYo Games.Drawing.Draw_Instance_Lives
+/// @DnDVersion : 1
+/// @DnDHash : 21DCD6FA
+/// @DnDArgument : "x" "160"
+/// @DnDArgument : "y" "10"
+/// @DnDArgument : "sprite" "sprite_health"
+/// @DnDSaveInfo : "sprite" "00376c2c-3875-4d51-819b-d7b9c4133917"
+var l21DCD6FA_0 = sprite_get_width(sprite_health);
+var l21DCD6FA_1 = 0;
+if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
+for(var l21DCD6FA_2 = __dnd_lives; l21DCD6FA_2 > 0; --l21DCD6FA_2) {
+	draw_sprite(sprite_health, 0, 160 + l21DCD6FA_1, 10);
+	l21DCD6FA_1 += l21DCD6FA_0;
+}
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Score
 /// @DnDVersion : 1
 /// @DnDHash : 06F19530
